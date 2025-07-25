@@ -9,7 +9,6 @@ __pycache__/
 *.log
 
 # Archivos grandes o sensibles
-*.pt
 *.zip
 *.tar
 *.tar.gz
