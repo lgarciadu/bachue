@@ -1,0 +1,25 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Archivos de sistema
+__pycache__/
+*.py[cod]
+*.DS_Store
+*.log
+
+# Archivos grandes o sensibles
+*.pt
+*.zip
+*.tar
+*.tar.gz
+
+# Archivos de ejecución
+*.exe
+*.dll
+
+# Archivos de Jupyter y notebooks
+.ipynb_checkpoints/
+
+# Carpetas de entrenamiento
+runs/

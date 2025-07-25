@@ -6,7 +6,7 @@ import io
 
 app = FastAPI()
 
-MODEL_PATH = "C:/Users/maria/Downloads/Bachue_project/yolov5/runs/train/bachue_yolov5/weights/last.pt"
+MODEL_PATH = "model/last.pt"
 model = torch.hub.load("ultralytics/yolov5", "custom", path=MODEL_PATH, force_reload=True)
 
 CLASS_INFO = {
